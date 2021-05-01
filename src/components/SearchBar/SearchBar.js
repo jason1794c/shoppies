@@ -13,7 +13,7 @@ function SearchBar() {
     return (
         <input
             type='text'
-            placeholder='Search'
+            placeholder='Search for movies'
             value={search}
             onChange={e => handleSearch(e)}
         />
