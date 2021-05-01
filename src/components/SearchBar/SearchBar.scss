@@ -1,0 +1,14 @@
+@import '../../style_variables/variables';
+
+input {
+    border: none;
+    border-bottom: 1px solid gray;
+    background-color: $container-bg;
+    margin: 5px 20px;
+    width: 50vw;
+    font-size: 20px;
+
+    &:focus {
+        outline: none;
+    }
+}

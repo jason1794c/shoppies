@@ -1,0 +1,118 @@
+.homepage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.homepage .top-container {
+  background-color: #DCDCDC;
+  margin-bottom: 25px;
+  padding: 20px 0px;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.homepage .top-container .search-icon {
+  font-size: large;
+  color: gray;
+  margin: 0 10px;
+}
+
+.homepage .body-containers {
+  margin-top: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.homepage .body-containers .left-container {
+  background-color: #DCDCDC;
+  border-radius: 10px;
+  width: 30vw;
+  height: 60vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 10px;
+}
+
+.homepage .body-containers .left-container h2 {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 2rem;
+  padding: 10px;
+  margin: 10px;
+  width: 97%;
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+
+.homepage .body-containers .right-container {
+  background-color: #DCDCDC;
+  border-radius: 10px;
+  width: 30vw;
+  height: 60vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 10px;
+}
+
+.homepage .body-containers .right-container h2 {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 2rem;
+  padding: 10px;
+  margin: 10px;
+  width: 97%;
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+
+@media screen and (max-width: 900px) {
+  .homepage .body-containers {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .homepage .body-containers .left-container {
+    width: 70vw;
+    margin: 10px 0;
+  }
+  .homepage .body-containers .right-container {
+    width: 70vw;
+    margin: 10px 0;
+  }
+}
+/*# sourceMappingURL=HomePage.css.map */

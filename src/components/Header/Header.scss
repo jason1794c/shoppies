@@ -1,0 +1,10 @@
+.header {
+    margin-top: 33px;
+    margin-bottom: 10px;
+
+    @media screen and (max-width: 500px) {
+        img {
+            width: 200px;
+        }
+    }
+}

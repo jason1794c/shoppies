@@ -1,0 +1,52 @@
+.MuiDialog-root {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.MuiDialog-root .MuiDialog-paper {
+  background-color: #400E12;
+  padding: 0 250px;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 1400px) {
+  .MuiDialog-root .MuiDialog-paper {
+    padding: 0 100px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .MuiDialog-root .MuiDialog-paper {
+    padding: 0;
+  }
+}
+
+.MuiDialog-root img {
+  margin: auto;
+  padding: 50px;
+}
+
+.MuiDialog-root img.logo {
+  width: 30%;
+}
+
+.MuiDialog-root img.awards {
+  width: 75%;
+}
+
+.MuiDialog-root h1 {
+  font-family: 'Parisienne', sans-serif;
+  font-size: 5rem;
+  text-align: center;
+  color: #ECC67B;
+  padding: 5px;
+}
+/*# sourceMappingURL=Banner.css.map */

@@ -1,0 +1,90 @@
+.movie-card {
+  width: 90%;
+  height: 25%;
+  background-color: #ffffff;
+  border-radius: 5px;
+  margin: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.movie-card img {
+  width: 3rem;
+  margin: 2rem;
+}
+
+.movie-card .movie-details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 50%;
+}
+
+.movie-card .movie-details h4 {
+  font-family: "Nunito Sans", sans-serif;
+  margin: 2px 0;
+}
+
+.movie-card .movie-details p {
+  font-family: "Hind Madurai", sans-serif;
+  font-size: 0.75rem;
+  margin: 2px 0;
+}
+
+.movie-card .movie-details a {
+  font-family: "Hind Madurai", sans-serif;
+  font-size: 0.75rem;
+  background-color: #400E12;
+  color: #ECC67B;
+  width: 5rem;
+  margin-top: 5px;
+  padding: 3px 0px;
+  border-radius: 5px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.movie-card .movie-details a:hover {
+  background-color: #671B21;
+}
+
+.movie-card button {
+  margin: 1.5rem;
+  width: 30%;
+  background-color: #ECC67B;
+  color: #400E12;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 0.9375rem;
+  font-weight: bold;
+}
+
+.movie-card button:hover {
+  cursor: pointer;
+  background-color: #DFC26B;
+}
+
+.movie-card button:disabled {
+  color: #ACAEAD;
+  background-color: #C6C7C6;
+  cursor: default;
+}
+
+.movie-card button.remove {
+  background-color: #671B21;
+  color: #FFF;
+}
+
+.movie-card button.remove:hover {
+  background-color: #400E12;
+}
+/*# sourceMappingURL=MovieCard.css.map */

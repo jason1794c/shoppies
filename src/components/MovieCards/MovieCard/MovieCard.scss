@@ -1,0 +1,83 @@
+@import '../../../style_variables/variables.scss';
+
+.movie-card {
+    width: 90%;
+    height: 25%;
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+
+    img {
+        width: 3rem;
+        margin: 2rem;
+    }
+
+    .movie-details {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+
+        h4 {
+            font-family: $primary-font, sans-serif;
+            margin: 2px 0;
+        }
+    
+        p {
+            font-family: $secondary-font, sans-serif;
+            font-size: 0.75rem;
+            margin: 2px 0;
+        }
+
+        a {
+            font-family: $secondary-font, sans-serif;
+            font-size: 0.75rem;
+            background-color: $secondary-color;
+            color: $primary-color;
+            width: 5rem;
+            margin-top: 5px;
+            padding: 3px 0px;
+            border-radius: 5px;
+            text-decoration: none;
+            text-align: center;
+
+            &:hover {
+                background-color: #671B21;
+            }
+        }
+    }
+
+    button {
+        margin: 1.5rem;
+        width: 30%;
+        background-color: $primary-color;
+        color: $secondary-color;
+        border: none;
+        border-radius: 5px;
+        padding: 5px 10px;
+        font-size: 0.9375rem;
+        font-weight: bold;
+
+        &:hover {
+            cursor: pointer;
+            background-color: #DFC26B;
+        }
+
+        &:disabled {
+            color: #ACAEAD;
+            background-color: #C6C7C6;
+            cursor: default;
+        }
+
+        &.remove {
+            background-color: #671B21;
+            color: #FFF;
+
+            &:hover {
+                background-color: $secondary-color;
+            }
+        }
+    }
+    
+}

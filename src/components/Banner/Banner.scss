@@ -1,0 +1,42 @@
+@import '../../style_variables/variables.scss';
+
+.MuiDialog-root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    .MuiDialog-paper {
+        background-color: $secondary-color;
+        padding: 0 250px;
+        border-radius: 10px;
+
+        @media screen and (max-width: 1400px) {
+            padding: 0 100px;
+        }
+        @media screen and (max-width: 1024px) {
+            padding: 0;
+        }
+    }
+    
+    img {
+        margin: auto;
+        padding: 50px;
+
+        &.logo {
+            width: 30%;
+        }
+
+        &.awards {
+            width: 75%;
+        }
+    }
+
+    h1 {
+        font-family: 'Parisienne', sans-serif;
+        font-size: 5rem;
+        text-align: center;
+        color: $primary-color;
+        padding: 5px;
+    }
+}
+

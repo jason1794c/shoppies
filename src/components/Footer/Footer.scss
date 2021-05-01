@@ -1,0 +1,13 @@
+@import '../../style_variables/variables';
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+    p {
+        color: $primary-color;
+        margin: 10px;
+    }
+}
