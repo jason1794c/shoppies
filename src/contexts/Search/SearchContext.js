@@ -9,7 +9,7 @@ function SearchContext({ children }) {
     // This endpoint will search OMDB's database for movies. If successful, the response object
     // will return the first page of the search results of up to 10 movies.
     const api_key = process.env.REACT_APP_API_KEY;
-    const url = `http://omdbapi.com/?s=${search}&apikey=${api_key}`;
+    const url = `https://omdbapi.com/?s=${search}&apikey=${api_key}`;
 
     const searchContext = {
         search,
