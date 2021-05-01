@@ -1,6 +1,9 @@
 # Shoppies
 Shoppies is a website app that allows users to search for movies they wish to nominate for the "Shoppies Award". Users can nominate up to a maximum of 5 movies. After nominating 5 movies, the user will no longer be able to nominate more movies unless they remove one or more of their nominations. Upon nominating 5 movies, a banner will pop up telling the user that they have nominated 5 movies. 
 
+## Demo
+[Nominate your favourite movies here!](https://shoppies-award-nominations.netlify.app/)
+
 ## Created using:
 * React (Hooks)
 * Material UI
