@@ -61,9 +61,9 @@
 .homepage .body-containers .left-container h2 {
   font-family: "Nunito Sans", sans-serif;
   font-size: 2rem;
-  padding: 10px;
-  margin: 10px;
-  width: 97%;
+  padding: 10px 0;
+  margin: 10px 0;
+  width: 100%;
   text-align: center;
   border-bottom: 1px solid black;
 }
@@ -89,9 +89,9 @@
 .homepage .body-containers .right-container h2 {
   font-family: "Nunito Sans", sans-serif;
   font-size: 2rem;
-  padding: 10px;
-  margin: 10px;
-  width: 97%;
+  padding: 10px 0;
+  margin: 10px 0;
+  width: 100%;
   text-align: center;
   border-bottom: 1px solid black;
 }
