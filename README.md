@@ -7,6 +7,7 @@ Shoppies is a website app that allows users to search for movies they wish to no
 ## Created using:
 * React (Hooks)
 * Material UI
+* SCSS
 
 ## Starting the Client
 1. Open a terminal and navigate to the root folder.
